@@ -7,6 +7,9 @@ public class Student {
     private String lastName;
     private int yearOfBirth;
 
+    
+    //    Getter's & Setters
+    
     public String getFirstName() {
         return firstName;
     }

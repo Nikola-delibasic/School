@@ -6,6 +6,8 @@ public class Course {
     private String codeName;
     private int numberOfClasses;
 
+    //    Getter's & Setters
+    
     public String getName() {
         return name;
     }
@@ -30,9 +32,9 @@ public class Course {
         this.numberOfClasses = numberOfClasses;
     }
     
-     public Course(){    
+    public Course(){    
     }
     
-      public Course(String name,String codeName,int numberOfClasses){    
+    public Course(String name,String codeName,int numberOfClasses){    
     }
 }
