@@ -58,13 +58,16 @@ public class Student {
     
 
     
-    public Student(){    
+    public Student(){
+          
     }
     
     public Student(String firstName,String lastName,int YearofBirth){
         this.firstName = "undefined";
         this.lastName = "undefined";
         this.yearOfBirth = yearOfBirth;
+        this.computer = new Computer();
+        this.course = new Course();
     }
     
     public void info() {
@@ -72,7 +75,8 @@ public class Student {
         System.out.println("First name: " + this.getFirstName());
         System.out.println("Last name: " + this.getLastName());
         System.out.println("Year of birth: " + this.getYearOfBirth());
-        System.out.println();
+        System.out.println("Course:" + this.course);
+        System.out.println("Computer:" + this.computer);
         
     }
             
